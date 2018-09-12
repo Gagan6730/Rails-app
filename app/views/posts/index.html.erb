@@ -4,7 +4,7 @@
   <%= stylesheet_link_tag "style" %>
 <!--  <link rel="stylesheet" type="text/css" href="../../assets/stylesheets/style.css">-->
 </head>
-<body>
+<body class="<%= content_for(:body_class) %>" >
 <div class="loginbox">
   <%= image_tag("avatar.png", :alt => "rss feed", :class => "avatar") %>
   <h1>Login Here</h1>
